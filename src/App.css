@@ -1,0 +1,142 @@
+/*General styling*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center; 
+}
+
+/*heading*/ 
+
+h1{
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input styling */
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]{
+  outline: none;
+  border-color: #007bff;
+}
+
+/*burron styling*/
+button{
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: #0056b3;
+}
+
+button:disabled{
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+
+/*listing style*/
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed{
+  text-decoration: line-through;
+  background-color: #d3f8e2;
+}
+
+li.span{
+  cursor: pointer;
+}
+
+li button{
+  background-color: #e74c3c;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+li button:hover{
+  background-color: #c0392b;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: lightblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color: #ff9800;
+}
